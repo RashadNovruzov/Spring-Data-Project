@@ -27,3 +27,27 @@ Old functionalities and version of project, which was written in JdbcTemplate, y
  
  Старый функционал и версию проекта, написанную на JdbcTemplate, вы можете увидеть по ссылке ниже:
  https://github.com/RashadNovruzov/SpringMvc-project-with-JdbcTemplate-
+
+
+# Bu layihədə həlli üçün verilmiş problemlər.
+
+
+
+Hibernate və Spring Data JPA istifadə edərək Layihə 1-i yenidən yazın. Layihənizdə heç bir SQL sorğusu olmamalıdır. Kitab və Şəxsiyyət, depolar və xidmətlər həyata keçirilməlidir. PersonDAO və BookDAO boş olmalıdır və istifadə edilməməlidir, bütün DB xidmətlər vasitəsilə işləyir.
+
+
+
+Yeni xüsusiyyətlər:
+
+
+
+1) Kitablar üçün səhifələmə əlavə edin. Çox kitab ola bilər və onlar brauzerdə bir səhifəyə sığmaya bilər. Bu problemi həll etmək üçün nəzarətçi metodu yalnız bütün kitabları bir anda göstərməməli, həm də çıxışı səhifələşdirə bilməlidir.
+
+2) İllərə görə çeşidləmə kitablarını əlavə edin. Nəzarətçi metodu kitablara sıralanmış qaydada xidmət göstərə bilməlidir.
+
+3) Kitab axtarış səhifəsi yaradın. Səhifədəki sahəyə kitabın adının baş hərflərini daxil edirik, kitabın tam adını və müəllifin adını alırıq.
+
+4) Şəxsin kitabın qaytarılma müddətini ötürdüyünə dair avtomatik çek əlavə edin.
+
+Layihənin köhnə funksiyaları və JdbcTemplate-də yazılmış versiyası ilə aşağıdakı linkdə tanış ola bilərsiniz: 
+https://github.com/RashadNovruzov/SpringMvc-project-with-JdbcTemplate-
